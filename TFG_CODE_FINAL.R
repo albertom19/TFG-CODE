@@ -8,6 +8,7 @@ library(randomForest)  # For Random Forest
 library(corrplot) # For correlation heatmaps
 
 # Load the dataset (already updated with numeric values)
+# Please copy the excel path from your computer and paste it below , in order to be able the code to read the dataset from your computer
 data <- read.csv("C:\\Users\\ALBERTO M\\Downloads\\TFG_DATASET_MODEL.csv")
 
 # Clean and convert each column to numeric, handling non-numeric characters
